@@ -19,7 +19,7 @@ func main() {
 }
 
 func Index(r *ghttp.Request) {
-	r.Response.Write("Hello Xyhelper,this is auditlimit")
+	r.Response.Write("Hello SoruxGPT Claude User,this is auditlimit")
 }
 
 func init() {

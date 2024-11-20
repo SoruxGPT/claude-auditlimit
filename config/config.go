@@ -10,7 +10,7 @@ import (
 
 var (
 	PORT           = 8080
-	PlusModels     = garray.NewStrArrayFrom([]string{"claude", "claude-3-opus-20240229", "claude-3-haiku-20240307", "claude-3-5-sonnet-20240620"})
+	PlusModels     = garray.NewStrArrayFrom([]string{"claude", "claude-3-opus-20240229", "claude-3-haiku-20240307", "claude-3-5-sonnet-20240620", "claude-default"})
 	ForbiddenWords = []string{}    // 禁止词
 	LIMIT          = 40            // 限制次数
 	PER            = time.Hour * 3 // 限制时间
